@@ -7,7 +7,7 @@ int main()                            /* Most important part of the program!  */
 
     printf( "Please enter your age" );  /* Asks for age */
     scanf( "%d", &age );                 /* The input is put in age */
-    if ( age < 30 ) {                  /* If the age is less than 100 */
+    if ( age < 30 ) {                  /* If the age is less than 30 */
         printf ("You are pretty young!\n" ); /* Just to show you it works... */
     }
     else if ( age == 50 ) {            /* I use else just to show an example */
